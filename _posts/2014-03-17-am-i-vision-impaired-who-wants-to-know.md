@@ -1,0 +1,37 @@
+---
+id: 605
+title: Am I Vision Impaired? Who Wants to Know?
+date: 2014-03-17T20:32:48+00:00
+author: Eitan
+layout: post
+guid: http://blog.monotonous.org/?p=605
+permalink: /2014/03/17/am-i-vision-impaired-who-wants-to-know/
+publicize_twitter_user:
+  - eeejay
+publicize_twitter_url:
+  - http://t.co/CIMI07yHSQ
+categories:
+  - Accessibility
+  - Software
+  - Technology
+---
+There has been discussion recently if websites should have the ability to detect whether a visitor is using a screen reader. This was sparked by the most recent [WebAIM survey](http://webaim.org/projects/screenreadersurvey5/#srdetection "Screen Reader User Survey #5: Screen Reader Detection") that highlights a clear majority of users would indeed be comfortable divulging that information to sites.  
+This is not a new topic, there is a [spec in the works](https://dvcs.w3.org/hg/IndieUI/raw-file/default/src/indie-ui-context.html "IndieUI 1.0: User Context") that attempts to balance privacy, functionality and user experience. This is also a dilemma we have as implementers and have discussed this extensively in [bug reports](https://bugzilla.mozilla.org/show_bug.cgi?id=946370 "Bug 946370 - implement CSS reader media type"). Even my esteemed colleague Marco put down [his thoughts on the topic](http://www.marcozehe.de/2014/02/27/why-screen-reader-detection-on-the-web-is-a-bad-thing/ " Marco’s accessibility blog : Why screen reader detection on the web is a bad thing").  
+I have mostly felt confusion about this question. Not about the privacy or usability concerns, but really about the semantics. I think the question &#8220;do you feel comfortable disclosing your assistive technology to the web&#8221; could be phrased in a dozen ways, each time exposing bias and assumptions about the web and computing.  
+The prevailing assumption is that the World Wide Web is a geo-spatial reality loosely based on the physical world. Just like a geographical site, a site on the Web resides in a specific locality. The user is a &#8220;visitor&#8221; to the site. The &#8220;site&#8221; metaphor runs very deep. When I was first shown the Web, in 1994 I remember [visiting the Louvre](http://www.ibiblio.org/wm/ "WebMuseum"), seeing the Mona Lisa and signing a guest book. In this world, the browser is a vehicle that takes you to distant and exotic locations. Their names suggested it: Internet Explorer, Netscape Navigator, Safari, Galeon, and the imperialistic Konquerer.  
+<figure id="attachment_606" style="width: 460px" class="wp-caption aligncenter">[<img class="size-full wp-image-606 " alt="White House Home Page, circa 1994" src="{{ "/assets/uploads/2014/03/white_house_home.gif" | relative_url }}" width="460" height="413" />](http://clinton1.nara.gov/)<figcaption class="wp-caption-text">You mean I could visit the White House from my home?? Do I need to wear a tie???</figcaption></figure>  
+This paradigm runs deep, even though we use the Web in a very different way today, and a new mental model of the Web is prevailing.  
+When you check your mail on Gmail, or catch up on Twitter, you are using an application. Your browser is just a shell. In your mind, you are not virtually traveling to Silicon Valley to visit a site. You feel ownership over those applications. It is &#8220;my&#8221; twitter feed, that is &#8220;my&#8221; inbox. You will not sign a guest book. Just look at the outcry every time Facebook redesigns its timeline, or after Google does some visual refresh to its apps. Users get irate because they see this as an encroachment on their space. They were happy, and then some ambitious redesign is forcing them to get reacquainted with something they thought was theirs. That is why market-speak invented the &#8220;cloud&#8221;, which ambiguates the geography of websites and reinforces the perception that the user should stop worrying and love the data centers behind their daily life.  
+Depending how you see the web at any given moment may change how you view the question of assistive technology detection.  
+If you are applying for a loan online, you are virtually traveling to a loan office or bank. Whether you have a disability or not is none of their business, and if they take note of it while considering your application for a loan that would be a big problem (and probably illegal). In other words, you are traveling to a site. Just like you would put on a pair of pants or skirt before leaving the house, you expect your browser to be a trusty vehicle that will protect you from the dangers and exposure in the Wide World of the Web.  
+On the other hand, you may use Microsoft&#8217;s Office 365 every day for your job or studies. It really is just an office suite not unlike the one you used to install on your computer. In your mind, you are not traveling to Redmond to use it. It is just there, and they don&#8217;t want you to think about it any further. The local software you run has the capability to optimize itself for its environment and provide a better experience for screen reader users, and there is no reason why you would not expect that from your new &#8220;cloud office&#8221;.
+
+## But What About User Privacy?
+
+The question of AT detection is really more about perceived privacy than actual privacy. If you had a smartphone in the last 5 years, you probably got frustrated with the mobile version of some website and downloaded the native version from the app store. Guess what? You just waived your privacy and disclosed any kind of AT usage to the app and, in turn, to the website you frequent. This whole &#8220;the Web is the platform&#8221; thing? It is a two way street. There is no such thing as an exclusively local app anymore, they are all web-enabled. When you install and run a &#8220;native&#8221; app, you can go back to that original mental model of the web and consider your actions as visiting a site. You may as well sign their guest book while you&#8217;re at it.  
+In fact, &#8220;local&#8221; apps today on iOS or Android may politely ask you to use your camera or access your address book, but profile your physical impairments? They don&#8217;t need special permission for that. If you installed it, they [already](https://developer.apple.com/library/ios/documentation/uikit/reference/UIKitFunctionReference/Reference/reference.html#//apple_ref/c/func/UIAccessibilityIsVoiceOverRunning "iOS API for detecting VoiceOver") [know](http://developer.android.com/reference/android/view/accessibility/AccessibilityManager.html "Android API for detecting accessibility services").  
+In that sense, the proposed IndieUI spec [offers](https://dvcs.w3.org/hg/IndieUI/raw-file/default/src/indie-ui-context.html#privacy-model "IndieUI 1.0: User Context - Privacy Model") more privacy than is currently afforded on &#8220;native&#8221; platforms by explicitly asking the user whether to disclose that information.
+
+## Conclusion
+
+I have no simple answers. Besides being an implementer, I don&#8217;t have enough of a stake in this. But I would like to emphasize a cliche that I hear over and over, and have finally embraced: &#8220;the Web is the platform&#8221;. The web is no longer an excursion and the browser is not a vehicle. If we truly aspire to make the web a first class platform, we need to provide the tools and capabilities that have been taken for granted on legacy platforms. But this time, we can do it better.

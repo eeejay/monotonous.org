@@ -1,0 +1,17 @@
+---
+id: 1214
+title: Pain Management
+date: 2016-11-14T12:45:38+00:00
+author: Eitan
+layout: post
+guid: http://blog.monotonous.org/?p=1214
+permalink: /2016/11/14/pain-management/
+publicize_twitter_user:
+  - eeejay
+categories:
+  - Personal
+  - World Affairs
+---
+<div id="js_kf" class="_5pbx userContent">
+  Close your eyes, take a deep breath and fast forward four years when Trump&#8217;s administration will be roundly rejected. Feel in your body the hope that will overwhelm you. Conjure up your future restored faith in humanity when people from all walks of life stand together against hate.<br /> I have never felt so pessimistic and defeated than in the last week. The press will normalize him, the Democratic minority will indulge him, and voters will grow apathetic and disengaged. No matter the scandals, past and future, that will embroil Trump and his goons; they will continue to consolidate power. He can&#8217;t be &#8220;exposed&#8221; for who he really is, it has been in plain sight all along.<br /> Trump and his kind will not go away, and the establishment is not coming back to rescue us. Cory Booker, Joe Biden, Michelle Obama, or any other Democrat star will not pull us out of this tailspin. They will try to convince us, as Hillary tried, that the electorate will embrace a competent centrist. They won&#8217;t, and the right will only grow in influence. This nightmare can endure for decades.<br /> The only thing that will save us from a populist racist oligarch demagogue is a populist anti-racist anti-neoliberal progressive with a mobilized movement behind them and serious contenders up and down the ticket.<br /> Before Trump got elected, we already had our work cut out for us: Black Lives Matter, equitable health care, reproductive rights, equal pay, housing justice, clean water, criminal justice, equitable education, prison abolition, gender justice, free Palestine, voting rights, indigenous rights, refugee rights, migrant rights, campaign finance reform, friggin&#8217; climate change and climate justice.<br /> We don&#8217;t get to put those issues aside until the next Obama is elected and we clear up our heads. We *amplify* those struggles and use their leverage to restore democracy and propel us forward to a revolution. We don&#8217;t have four years, we need to have our ducks in a row for the midterms in two.<br /> Am I being too preachy? I&#8217;m sorry. This is my catharsis. It&#8217;s the take-charge method Penny Simkin recently taught us in class.<br /> There are countless people who&#8217;s security and future are called into question with this turn of events. If you, like me, are shrouded in privilege &#8211; don&#8217;t let it paralyze you. Don&#8217;t be an ally, be an actor. Own this struggle. I would bring up that famous Murri quote, but you already know it.<br /> I know many smart, strategic, and dedicated people who work on this stuff every day, and I am so humbled and thankful they do this work and the sacrifices they make.<br /> We are anticipating a wonderful life transition soon (more on that later?), as the dust settles from this election and as we find our stride as a family I look forward to working on our liberation with you all.<br /> Close your eyes, take a deep breath, and borrow just a little bit of the hope and restored faith you will feel in four years.
+</div>

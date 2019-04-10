@@ -1,7 +1,8 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Really cool blog about ... something"
+title: "monotonous.org"
+author: "Eitan Isaacson"
+description: "Eitan's Pitch"
 lang: "en"
+url: "https://blog.monotonous.org"
 
 # Page settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
@@ -20,18 +21,19 @@ navigation:                  # (optional) site navigation in the header
 #  - title: "https://"       # linking external sites is also supported
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
-  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-  github: "https://github.com/niklasbuschmann/contrast"
-  rss: "/contrast/feed.xml"
+  rss: "/feed/atom"
 
 # Pagination
-show_excerpts: false         # preview articles on the home page
-paginate: 8                  # number of articles per page
+show_excerpts: true          # preview articles on the home page
+paginate: 4                  # number of articles per page
 excerpt_separator: "\n\n\n"  # indicate the end of the excerpt by two blank lines
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
 #  isso: ""
+
+feed:
+  path: "/feed/atom/index.xml"
 
 plugins: 
  - jekyll-feed
