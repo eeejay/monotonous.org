@@ -50,7 +50,7 @@ async function getVoices() {
 But that method still polls, which isn't great and is needlessly wasteful. There is another way to do it. You could rely on the `voiceschanged` DOM event that will be fired once synthesis voices become available. We will also add a timeout to that so our async method returns even if the browser never fires that event.
 
 ```js
-  async function getVoicesAsync() {
+  async function getVoices() {
     const GET_VOICES_TIMEOUT = 2000; // two second timeout
 
     let voices = window.speechSynthesis.getVoices();
