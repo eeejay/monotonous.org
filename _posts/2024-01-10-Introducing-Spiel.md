@@ -16,7 +16,7 @@ categories:
 
 <img src="/assets/uploads/2024/01/spiel-logo.svg" alt="Spiel Logo" style="max-width: 30vw; float: right; margin-left: 1rem;">
 
-I wrote the beginning of what I hope will be an [appealing speech API for desktop Linux and beyond](https://github.com/eeejay/libspiel). It consists of two parts, a [speech provider interface specification](https://eeejay.github.io/libspiel/generated-org.freedesktop.Speech.Provider.html) and a [client library](https://eeejay.github.io/libspiel/). My hope is that the simplicity of the design and its leverage of existing free desktop technologies will make adoption of this API easy.
+I wrote the beginning of what I hope will be an [appealing speech API for desktop Linux and beyond](https://github.com/eeejay/spiel). It consists of two parts, a [speech provider interface specification](https://eeejay.github.io/spiel/generated-org.freedesktop.Speech.Provider.html) and a [client library](https://eeejay.github.io/spiel/). My hope is that the simplicity of the design and its leverage of existing free desktop technologies will make adoption of this API easy.
 
 Of course, Linux already has a speech framework in the form of [Speech Dispatcher](https://github.com/brailcom/speechd). I believe there have been a handful of technologies and recent developments in the free desktop space that offer a unique opportunity to build something truly special. They include:
 
